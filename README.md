@@ -1,3 +1,3 @@
-# Terceiro Trimestre - HTML - CSS e JavaScript
+# Terceiro Trimestre
 
 Isabella Dante - N.10
