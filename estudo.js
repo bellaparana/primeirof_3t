@@ -29,18 +29,40 @@ function mostraTabuada(){
 }
 
 }
+function moeda(atual){
+    return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+}
 function total(){
    let v = document.getElementById("valor").value;
    let j = document.getElementById("juros").value;
    let t = document.getElementById("meses").value;
    let r = 0;
+   if (!Number(v)){
+       alert("O campo valor deve ser numeros");
+       document.getElementById("valor").value = "";
+       document.getElementById("valor").focus();
+       return
+   }
+   if (!Number(j)){
+    alert("O campo juros deve ser numeros");
+    document.getElementById("juros").value = "";
+    document.getElementById("juros").focus();
+    return
+}
+if (!Number(t)){
+    alert("O campo meses deve ser numeros");
+    document.getElementById("meses").value = "";
+    document.getElementById("meses").focus();
+    return 
+
+    }
    for(let i =1; i <=t; i++){
       r = v * (1 + (j/100));
-      document.write("Mes " + i + " valor:" + r + "<br>");
+      document.write("Mes " + i + " valor:" + moeda(r) + "<br>");
       v = r;
    }
    
-   document.write("Resultado: " + r);
+   document.write("Resultado: " + moeda(r)); 
 
 }
  
