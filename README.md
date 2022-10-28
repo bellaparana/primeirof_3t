@@ -1,7 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Emanuel Carvalho da Silva Rosário - Nr. 6
+ISABELLA SILVA GAIOTTO DANTE - Nr. 10
 
 ## Conteúdo
 HTML, CSS e javaScript
