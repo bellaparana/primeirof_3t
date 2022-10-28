@@ -1,6 +1,7 @@
 # Terceiro Trimestre
 
-Isabella Dante - N.10
+## Identificação
+Emanuel Carvalho da Silva Rosário - Nr. 6
 
-## Conteudo
-HTML, CSS e JavaScript
+## Conteúdo
+HTML, CSS e javaScript
